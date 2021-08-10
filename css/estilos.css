@@ -1,0 +1,462 @@
+html{
+    height: 100%;
+    overflow: hidden;    
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+.navbar-fondo{
+    background-color: #2C2347;
+}
+nav ul a{
+    font-family: 'Bowlby One SC', cursive;
+}
+.font-bowlby{
+    font-family: 'Bowlby One SC', cursive;
+}
+.font-bowlby2{
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 20px;
+}
+.font-anton{
+    font-family: 'Anton', sans-serif;
+}
+.transform:hover{
+    transform: scale(1.5);
+}
+.transform1:hover{
+    transform: scale(1.1);
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-rosa{
+    color: #E51844;
+}
+.text-ciruela{
+    color: #BA2059;
+}
+#home{
+    background: url(../img/header-gorila-sm.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.header-text{
+    margin-top: 150px;
+    font-family: 'Bowlby One SC', cursive;
+    color: #2C2347;
+}
+.btn{
+    color: #EFEFEF;
+    font-family: 'Nunito', sans-serif;
+}
+.btn:hover{
+    color: white ;
+    transform: scale(1.1);
+}
+
+.logo-navbar{
+    width: 40px;
+}
+.logo-header{
+    max-width: 400px;
+}
+.submarcas{
+    font-family: 'Anton', sans-serif;
+    height: 50px;
+    width: auto;
+}
+.main-intro{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-rodar{
+    background: url(../img/fondo-rodar.jpg) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-main-submarcas{
+    background-color: rgba(211, 211, 211, 0.8);
+    border-radius: 50px;
+    padding-bottom: 25px;
+}
+.main-man_a{
+    background: url(../img/fondo-maña.jpg) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-gira{
+    background: url(../img/fondo-gira.jpg) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-sub{
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.logo-footer{
+    max-width: 130px;
+}
+
+.redes li a :hover{
+    transform: scale(1.5);
+}
+.logo-agencia{
+    height: 20px;
+    width: auto;
+}
+/* FIN INDEX */
+/* ---------INICIO RODAR--------- */
+
+#header-rodar{
+    background: url(../img/header-rodar.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll
+}
+#header-rodar-sm{
+    background: url(../img/header-rodar-sm.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll
+}
+.main-comp-ama{
+    background: url(../img/rodar-comp-ama-sm.png) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 740px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.main-comp-ava{
+    background: url(../img/rodar-comp-ava-sm.png) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 740px;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+.main-comp-pro{
+    background: url(../img/rodar-comp-pro-sm.png) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 740px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.main-free1{
+    background: url(../img/rodar-free1-sm.png) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 740px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.main-free2{
+    background: url(../img/rodar-free2-sm.png) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 740px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.main-influ1{
+    background: url(../img/rodar-influencers1-sm.png) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 740px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.main-influ2{
+    background: url(../img/rodar-influencers2-sm.png) no-repeat center center fixed;
+    display: table;
+    background-attachment: scroll;
+    height: 640px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+/* FIN RODAR */
+/* ---------INICIO GIRA--------- */
+
+#header-gira{
+    background: url(../img/header-gira.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll
+}
+#header-gira-sm{
+    background: url(../img/header-gira-sm.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll
+}
+.main-gira-bajon{
+    background: url(../img/fondo-liso-verdi.jpg);
+    background-size: cover;
+}
+.main-gira-meta{
+    background: url(../img/fondo-liso-ciruela.jpg);
+    background-size: contain;
+}
+.main-gira-carpa{
+    background: url(../img/fondo-liso-ama.jpg);
+    background-size: contain;
+}
+/* FIN GIRA */
+/* ---------INICIO MAÑA--------- */
+#header-man_a{
+    background: url(../img/header-mana.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll
+}
+#header-man_a-sm{
+    background: url(../img/header-mana-sm.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll
+}
+.lg-img-mana{
+    height: 650px;
+}
+ul{
+    list-style: none;
+}
+.sinpadding{
+    padding: 0;
+}
+/* FIN MANA */
+/* ---------INICIO ENTRADAS--------- */
+.header-entradas{
+    background: #006b42; 
+    background: -moz-linear-gradient(-45deg,  #006b42 0%, #009563 29%, #009563 61%, #3ebc90 100%);
+    background: -webkit-linear-gradient(-45deg,  #006b42 0%,#009563 29%,#009563 61%,#3ebc90 100%);
+    background: linear-gradient(135deg,  #006b42 0%,#009563 29%,#009563 61%,#3ebc90 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006b42', endColorstr='#3ebc90',GradientType=1 ); 
+    color: white;
+}
+.logo-entradas{
+    width: 250px;
+    padding-top: 100px;
+}
+.lista-padding{
+    padding: 0;
+}
+.main-entradas-cards{
+    background: url(../img/fondo-gorila1a.png) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.ollie{
+    width: 100%;
+}
+.separador{
+    border: #2C2347 solid;
+    opacity: unset;
+}
+
+.dropbtn {
+    color: #2B408A;
+    text-decoration: underline ;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 
+        0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #E51844 ;
+}
+.mapa{
+    width: 700px;
+}
+
+
+/* FIN ENTRADAS */
+/* ---------INICIO RESPOSIVE--------- */
+@media (min-width: 768px) {
+    #home{
+        background: url(../img/header-gorila-md.jpg) no-repeat center center fixed ;
+        display: table;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .center-sm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-rodar{
+        background: url(../img/fondo-rodar.jpg) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 500px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (min-width: 992px) {
+    #home{
+        background: url(../img/header-gorila.jpg) no-repeat center center fixed ;
+        display: table;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .main-comp-ama{
+        background: url(../img/rodar-comp-ama.png) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 768px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .main-comp-ava{
+        background: url(../img/rodar-comp-ava.png) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 768px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .main-comp-pro{
+        background: url(../img/rodar-comp-pro.png) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 768px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .main-free1{
+        background: url(../img/rodar-free1.png) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 768px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .main-free2{
+        background: url(../img/rodar-free2.png) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 768px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .main-influ1{
+        background: url(../img/rodar-influencers1.png) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 768px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .main-influ2{
+        background: url(../img/rodar-influencers2.png) no-repeat center center fixed;
+        display: table;
+        background-attachment: scroll;
+        height: 768px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+}
