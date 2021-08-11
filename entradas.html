@@ -20,8 +20,7 @@
 
     <link rel="icon" type="image/png" href="img/logo2b.png">
 
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <title>Gorila Rey</title>
 
@@ -60,11 +59,11 @@
       <header class="header-entradas">
         <div class="container">
           <div class="row centrar">
-            <img src="./img/logo.png" alt="Logo de Gorila Rey" class="logo-entradas">
-            <p class="text-center pt-5">El evento de skate más grande de latinoamérica, 3 días de pura pasión. ¡No te lo podes perder!</p>
+            <img src="./img/logo.png" alt="Logo de Gorila Rey" class="logo-entradas wow animate__animated animate__fadeInUp">
+            <p class="text-center pt-5 wow animate__animated animate__fadeInUp">El evento de skate más grande de latinoamérica, 3 días de pura pasión. ¡No te lo podes perder!</p>
           </div> 
-          <div class="row pt-5 pb-5">
-            <div class="col-12 col-md-4 text-md-start text-center centrar align-self-start">
+          <div class="row pt-5 pb-5 wow">
+            <div class="col-12 col-md-4 text-md-start text-center centrar align-self-start animate__animated animate__fadeInRight animate__delay-1s">
               <div>
                 <h4 class="text-ciruela transform1"><strong>Competencias</strong></h4>
                 <hr class="separador">
@@ -76,7 +75,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-12 col-md-4 text-md-start text-center centrar align-self-start">
+            <div class="col-12 col-md-4 text-md-start text-center centrar align-self-start animate__animated animate__fadeInRight animate__delay-2s">
               <div>
                 <h4 class="text-ciruela transform1"><strong>Shows</strong></h4>
                 <hr class="separador">
@@ -87,7 +86,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-12 col-md-4 text-md-start text-center centrar align-self-start">
+            <div class="col-12 col-md-4 text-md-start text-center centrar align-self-start animate__animated animate__fadeInRight animate__delay-3s">
               <div>
                 <h4 class="text-ciruela transform1"><strong>Y mucho más</strong></h4>
                 <hr class="separador">
@@ -108,7 +107,7 @@
           <div class="container">
             <div class="row">
 
-              <div class="col centrar align-self-start pt-5 pb-5">
+              <div class="col centrar align-self-start pt-5 pb-5 animate__animated animate__fadeInUp animate__delay-4s">
                 <div class="card text-white bg-dark " style="width: 20rem;">
                   <img src="img/card-general.jpg" class="card-img-top" alt="Entrada general">
                   <div class="card-body">
@@ -126,7 +125,7 @@
                 </div>
               </div>
 
-              <div class="col centrar align-self-start pt-5 pb-5">
+              <div class="col centrar align-self-start pt-5 pb-5 animate__animated animate__fadeInUp animate__delay-4s">
                 <div class="card text-white bg-dark" style="width: 20rem;">
                   <img src="img/card-vip.jpg" class="card-img-top" alt="Entrada vip">
                   <div class="card-body">
@@ -150,7 +149,7 @@
 
         <section>
           <div class="container">
-            <div class="row text-center pt-5">
+            <div class="row text-center pt-5 animate__animated animate__fadeInLeft animate__delay-5s">
               <h4>Más información</h4>
               <p class="pt-3">Gorila Rey 2021 será durante los días 1, 2 y 3 de Septiembre y tendrá lugar en el predio El Valle de la Luna ubicado en la provincia de San Juan, Argentina; un lugar estratégicamente pensado para cada una de las actividades y elegido por sus hermosos paisajes. </p>
 
@@ -210,5 +209,9 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
