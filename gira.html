@@ -20,6 +20,8 @@
 
     <link rel="icon" type="image/png" href="img/logo2b.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     
     <title>Gorila Rey</title>
 
@@ -67,18 +69,18 @@
       </div>
     </header>
 
-    <main>
+    <main class="wow">
         <section class="container main-intro">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-6 offset-lg-3 offset-md-2 text-center pt-5 pb-5">
-                    <h1>Entregate al relax</h1>
-                    <p class="pt-3">
+                    <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Entregate al relax</h1>
+                    <p class="pt-3 animate__animated animate__fadeInLeft animate__delay-2s">
                       Gira ofrece al público una zona de descanzo y relajación entre las actividades del evento. 
                     </p>
-                    <p>
+                    <p class="animate__animated animate__fadeInLeft animate__delay-3s">
                       Contamos con foodtrucks con variedad de platillos (incluyendo opciones sin tacc y veganas), zona de camping para descansar y puesto de eco-bicis para pasear y deleitarse del hermoso paisaje en que está situado el predio.
                     </p>
-                    <p>
+                    <p class="animate__animated animate__fadeInLeft animate__delay-4s">
                       Disfrutá un buen bajonazo que te hará resucitar o tomate una siestita reparadora para subir tu batería al 100%.
                     </p>
                 </div>
@@ -219,5 +221,9 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
